@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name = "viewport" content = "width=device-width, initial-scale=1" />
+	<title>Dad's Site Mockup - Listing Page</title>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet"> 
+	<link rel = "stylesheet" href = "main_styles.css">
+	<script src="https://kit.fontawesome.com/0cf1e5e8e5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+		<nav id = "navBar" class = "navbar-white">
+			<ul class = "nav-links">
+				<li><a href = "index.html">Home</a></li>
+				<li><a href = "#listings">Listings</a></li>
+				<li><a href = "apartment.html">Apartment</a></li>
+			</ul>
+			<i class="fa-solid fa-bars" onclick = "togglebtn()"></i>
+		</nav>
+		
+		
+		<div class = "container">
+			<div class = "list-container">
+			
+				<div class = "left-col">
+					<p>100+ Options</p>
+					<h1>Apartments</h1>
+					
+					<div class = "apartment">
+						<div class = "apartment-img">
+							<img class = "apartment-preview" src = "images/apartment1.jpg">
+						</div>
+										
+						<div class = "apartment-info">
+							<p>Beautiful apartment in Phoenix</p>
+							<h3>2 Bedroom Apartment</h3>
+							<p>2 Bedrooms / 2 Bathrooms / Kitchen / Washer and Dryer</p>
+							<div class = "apartment-price">
+								<h4>$ 2000 <span>/ month</span></h4>
+							</div>
+						</div>
+					</div>
+					
+					<div class = "apartment">
+						<div class = "apartment-img">
+							<img class = "apartment-preview" src = "images/apartment2.jpg">
+						</div>
+					
+						<div class = "apartment-info">
+							<p>Beautiful apartment in Phoenix</p>
+							<h3>2 Bedroom Apartment</h3>
+							<p>2 Bedrooms / 2 Bathrooms / Kitchen / Washer and Dryer</p>
+							<div class = "apartment-price">
+								<h4>$ 2000 <span>/ month</span></h4>
+							</div>
+						</div>
+					</div>
+					
+					<div class = "apartment">
+						<div class = "apartment-img">
+							<img class = "apartment-preview" src = "images/apartment3.jpg">
+						</div>
+										
+						<div class = "apartment-info">
+							<p>Beautiful apartment in Phoenix</p>
+							<h3>2 Bedroom Apartment</h3>
+							<p>2 Bedrooms / 2 Bathrooms / Kitchen / Washer and Dryer</p>
+							<div class = "apartment-price">
+								<h4>$ 2000 <span>/ month</span></h4>
+							</div>
+						</div>
+					</div>
+					
+					<div class = "apartment">
+						<div class = "apartment-img">
+							<img class = "apartment-preview" src = "images/apartment4.jpg">
+						</div>
+										
+						<div class = "apartment-info">
+							<p>Beautiful apartment in Phoenix</p>
+							<h3>2 Bedroom Apartment</h3>
+							<p>2 Bedrooms / 2 Bathrooms / Kitchen / Washer and Dryer</p>
+							<div class = "apartment-price">
+								<h4>$ 2000 <span>/ month</span></h4>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				
+				<div class = "right-col">
+					<div class = "sidebar">
+						<h2>Select Filters</h2>
+						
+						<h3>Property Type</h3>
+						<div class = "filter">
+							<input type = "checkbox"> <p>1 Bedroom</p> <span>(0)</span>
+						</div>
+						<div class = "filter">
+							<input type = "checkbox"> <p>2 Bedroom</p> <span>(0)</span>
+						</div>
+						<div class = "filter">
+							<input type = "checkbox"> <p>3 Bedroom</p> <span>(0)</span>
+						</div>
+						<div class = "filter">
+							<input type = "checkbox"> <p>Studio</p> <span>(0)</span>
+						</div>
+						
+						<h3>Amenities</h3>
+						<div class = "filter">
+							<input type = "checkbox"> <p>Gym</p> <span>(0)</span>
+						</div>
+						<div class = "filter">
+							<input type = "checkbox"> <p>Pool</p> <span>(0)</span>
+						</div>
+						<div class = "filter">
+							<input type = "checkbox"> <p>Washer/Dryer</p> <span>(0)</span>
+						</div>
+						
+						<div class = "sidebar-link">
+							<a href = "#">View More</a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		
+		
+			<div class = "pagination">
+				<i class="fa-solid fa-arrow-left"></i>
+				<span class = "current">1</span>
+				<span>2</span>
+				<span>3</span>
+				<span>4</span>
+				<span>5</span>
+				<span>&middot; &middot; &middot; &middot;</span>
+				<span>20</span>
+				<i class="fa-solid fa-arrow-right"></i>
+			</div>
+		
+		
+			<footer class = "footer">
+				<a href = "https://facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+				<a href = "https://craigslist.com/"><i class="fa-solid fa-c"></i></a>
+				<hr>
+				<p>Copyright &copy; 2021, Lorem ipsum dolor</p>
+			</footer>
+		</div>
+	
+	
+	<!-- -------Mobile Nav Bar Script-------	 -->
+	<script>
+		var navBar = document.getElementById("navBar");
+		
+		function togglebtn(){
+			navBar.classList.toggle("hidemenu");
+		}
+	</script>
+</body>
+
+</html>
